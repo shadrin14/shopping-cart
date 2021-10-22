@@ -4,17 +4,17 @@ class Products {
         CATALOG.forEach(({id, name, price, img}) => {
             
             htmlCatalog += `
-            <li>
-                <span>${name}</span>
-                <img src="${img}" />
-                <span>${price}</span>
-                <button>Add to shopping</button>
+            <li class="products-element">
+                <span class="products-element_name">${name}</span>
+                <img class="products-element_img" src="${img}" />
+                <span class="products-element_price">${price}</span>
+                <button class="products-element_button">Add to shopping</button>
             </li>
             `;
         });
 
         const html = `
-        <ul>
+        <ul class="products-container">
             ${htmlCatalog}
         </ul>
         `;

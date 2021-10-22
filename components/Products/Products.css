@@ -1,0 +1,24 @@
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.products-element {
+
+}
+
+.products-element_name {
+
+}
+
+.products-element_img {
+    width: 100%;
+    height: 270px;
+    object-fit: contain;
+}
+.products-element_price {
+
+}
+.products-element_button {
+
+}
