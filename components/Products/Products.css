@@ -1,14 +1,20 @@
 .products-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 45px;
+    width: 80%;
+    max-width: 1200px;
+    margin: var(--spacing-large) auto;
 }
 
 .products-element {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .products-element_name {
-
+    margin-bottom: auto;
 }
 
 .products-element_img {
@@ -16,9 +22,7 @@
     height: 270px;
     object-fit: contain;
 }
-.products-element_price {
 
-}
-.products-element_button {
+.products-element_price {}
 
-}
+.products-element_button {}
