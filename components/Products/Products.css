@@ -11,6 +11,10 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    padding: 25px 20px;
+    background: var(--color-element);
+    box-shadow: var(--box-shadow);
+    border-radius: 3px;
 }
 
 .products-element_name {
