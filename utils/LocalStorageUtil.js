@@ -24,9 +24,9 @@ class LocalStorageUtil {
         }
         localStorage.setItem(this.keyName, JSON.stringify(products));
 
-        return { pushProduct, products }
+        return { pushProduct, products };
     }
 }
 const localStorageUtil = new LocalStorageUtil();
 
-const a = localStorageUtil.getProducts();
+
