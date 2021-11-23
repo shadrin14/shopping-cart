@@ -7,4 +7,6 @@
 
 .header-counter {
     margin-left: auto;
+    font-weight: bold;
+    cursor: pointer;
 }
